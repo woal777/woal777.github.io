@@ -93,10 +93,10 @@ team:
 
 skills-title: Skills
 skills:
-- {name: Web Design, color: '#fdb157', value: '90%'}
-- {name: Logo Design, color: '#9473e6', value: '60%'}
-- {name: After Effects, color: '#bdecf6', value: '80%'}
-- {name: Web App, color: '#ffbcaa', value: '70%'}
+- {name: DFT code(VASP), color: '#fdb157', value: '90%'}
+- {name: Programming(Python), color: '#9473e6', value: '60%'}
+- {name: Machine Learning, color: '#bdecf6', value: '40%'}
+- {name: Cooking, color: '#ffbcaa', value: '50%'}
 
 
 #-------------------------------
