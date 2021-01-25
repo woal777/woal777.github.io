@@ -42,7 +42,7 @@ hero:
 
 social:
 - {icon: "ti-facebook", link: "#"}
-- {icon: "ti-instagram", link: "#https://www.instagram.com/jinhobyeon/"}
+- {icon: "ti-instagram", link: "https://www.instagram.com/jinhobyeon/"}
 - {icon: "ti-dribbble", link: "#"}
 - {icon: "ti-twitter", link: "#"}
 
