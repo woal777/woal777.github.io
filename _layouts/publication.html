@@ -48,7 +48,7 @@ layout: default
     <ul class="list-group list-group-flush">
       {% for item in publication %}
       <li class="list-group-item">
-        {{item.author}}, {{item.title}}, {{item.journal}}
+        {{item.author}}, {{item.title}}, <p class="font-italic">{{item.journal}}<p>
       </li>
       {% endfor %}
     </ul>
