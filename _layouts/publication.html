@@ -40,19 +40,21 @@ layout: default
 <!-- /page title -->
 
 <div class="card">
+  {% for publication in site.data.settings.publications %}
   <div class="card-header">
-    <h3>2021</h3>
+    <h3>{{publication.year}}</h3>
   </div>
   <div class="card-body">
     <ul class="list-group list-group-flush">
+      {% for item in publication %}
       <li class="list-group-item">
-        YI Kim, M Jeong, J Byun, S-H Yang, W Choi, W-S Jang, J Jang, K Lee, Y
-        Kim, J Lee, E Lee, Y-M Kim, "Atomic-scale identification of invisible
-        cation vacancies at an oxide homointerface", Materials Today Physics 16,
-        100302
+        {{item.author}}, {{item.title}}, {{item.journal}}
       </li>
+      {% endfor %}
     </ul>
   </div>
+  {% endfor %}
+
   <div class="card-header">
     <h3>2020</h3>
   </div>
@@ -80,17 +82,6 @@ layout: default
         J Jo, J Byun, I Oh, J Park, MJ Jin, BC Min, J Lee, JW Yoo, "Molecular
         tunability of magnetic exchange bias and asymmetrical magnetotransport
         in metalloporphyrin/Co hybrid bilayers", ACS nano 13 (1), 894-903
-      </li>
-    </ul>
-  </div>
-  <div class="card-header">
-    <h3>2017</h3>
-  </div>
-  <div class="card-body">
-    <ul class="list-group list-group-flush">
-      {% for publication in site.data.settings.publications %}
-      <li class="list-group-item">
-        {{publication.author}}, {{publication.title}}, {{publication.journal}}
       </li>
     </ul>
   </div>
