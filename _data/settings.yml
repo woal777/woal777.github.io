@@ -293,18 +293,21 @@ contact-email: jin-ho@pusan.ac.kr
 
 publications:
   - year : 2021
-    - author: YI Kim, M Jeong, J Byun, S-H Yang, W Choi, W-S Jang, J Jang, K Lee, Y Kim, J Lee, E Lee, Y-M Kim
-      title : Atomic-scale identification of invisible cation vacancies at an oxide homointerface
-      journal : Materials Today Physics 16, 100302
+    list :
+    - author: "YI Kim, M Jeong, J Byun, S-H Yang, W Choi, W-S Jang, J Jang, K Lee, Y Kim, J Lee, E Lee, Y-M Kim"
+      title : "Atomic-scale identification of invisible cation vacancies at an oxide homointerface"
+      journal : "Materials Today Physics 16, 100302"
       link  : "#"
 
   - year : 2020
+    list :
     - author: J Jo, J Byun, J Lee, D Choe, I Oh, J Park, MJ Jin, J Lee, JW Yoo
       title : Emergence of Multispinterface and Antiferromagnetic Molecular Exchange Bias via Molecular Stacking on a Ferromagnetic Film
       journal : Advanced Functional Materials 30 (11), 1908499
       link  : "#"
 
   - year : 2018
+    list :
     - author: SJ Kwon, BM Jung, T Kim, J Byun, J Lee, SB Lee, UH Choi
       title : Influence of Al2O3 Nanowires on Ion Transport in Nanocomposite Solid Polymer Electrolytes
       journal : Macromolecules 51 (24), 10194-10201
@@ -316,6 +319,7 @@ publications:
       link  : "https://pubs.acs.org/doi/abs/10.1021/acsnano.8b08689"
 
   - year : 2017
+    list :
     - author: Trinh Thi Ly, Ganbat Duvjir, Taewon Min, Jinho Byun, Taehoon Kim, Mahmoud M Saad, Nguyen Thi Minh Hai, Sunglae Cho, Jaekwang Lee, Jungdae Kim
       title : Atomistic study of the alloying behavior of crystalline SnSe1−xSx
       journal : Physical Chemistry Chemical Physics 19 (32), 21648-21654

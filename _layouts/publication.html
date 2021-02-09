@@ -46,7 +46,7 @@ layout: default
   </div>
   <div class="card-body">
     <ul class="list-group list-group-flush">
-      {% for item in publication %}
+      {% for item in publication.list %}
       <li class="list-group-item">
         {{item.author}}, {{item.title}}, <a href="item.link" class="stretched-link"><p class="font-italic">{{item.journal}}<p></a>
       </li>
