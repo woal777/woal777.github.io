@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <!-- page title -->
 <section class="page-title-alt bg-primary position-relative">
   <div class="container">
@@ -11,10 +12,30 @@ layout: default
     </div>
   </div>
   <!-- background shapes -->
-  <img src="{{ site.baseurl }}/assets/images/illustrations/cloud.png" alt="illustrations" class="bg-shape-1" style="width:15%">
-  <img src="{{ site.baseurl }}/assets/images/illustrations/cloud.png" alt="illustrations" class="bg-shape-2" style="width:15%">
-  <img src="{{ site.baseurl }}/assets/images/illustrations/cloud.png" alt="illustrations" class="bg-shape-3" style="width:15%">
-  <img src="{{ site.baseurl }}/assets/images/illustrations/cloud.png" alt="illustrations" class="bg-shape-4" style="width:15%">
+  <img
+    src="{{ site.baseurl }}/assets/images/illustrations/cloud.png"
+    alt="illustrations"
+    class="bg-shape-1"
+    style="width: 15%"
+  />
+  <img
+    src="{{ site.baseurl }}/assets/images/illustrations/cloud.png"
+    alt="illustrations"
+    class="bg-shape-2"
+    style="width: 15%"
+  />
+  <img
+    src="{{ site.baseurl }}/assets/images/illustrations/cloud.png"
+    alt="illustrations"
+    class="bg-shape-3"
+    style="width: 15%"
+  />
+  <img
+    src="{{ site.baseurl }}/assets/images/illustrations/cloud.png"
+    alt="illustrations"
+    class="bg-shape-4"
+    style="width: 15%"
+  />
 </section>
 <!-- /page title -->
 
@@ -24,7 +45,12 @@ layout: default
   </div>
   <div class="card-body">
     <ul class="list-group list-group-flush">
-      <li class="list-group-item">YI Kim, M Jeong, J Byun, S-H Yang, W Choi, W-S Jang, J Jang, K Lee, Y Kim, J Lee, E Lee, Y-M Kim, "Atomic-scale identification of invisible cation vacancies at an oxide homointerface", Materials Today Physics 16, 100302</li>
+      <li class="list-group-item">
+        YI Kim, M Jeong, J Byun, S-H Yang, W Choi, W-S Jang, J Jang, K Lee, Y
+        Kim, J Lee, E Lee, Y-M Kim, "Atomic-scale identification of invisible
+        cation vacancies at an oxide homointerface", Materials Today Physics 16,
+        100302
+      </li>
     </ul>
   </div>
   <div class="card-header">
@@ -32,7 +58,12 @@ layout: default
   </div>
   <div class="card-body">
     <ul class="list-group list-group-flush">
-      <li class="list-group-item">J Jo, J Byun, J Lee, D Choe, I Oh, J Park, MJ Jin, J Lee, JW Yoo, "Emergence of Multispinterface and Antiferromagnetic Molecular Exchange Bias via Molecular Stacking on a Ferromagnetic Film", Advanced Functional Materials 30 (11), 1908499</li>
+      <li class="list-group-item">
+        J Jo, J Byun, J Lee, D Choe, I Oh, J Park, MJ Jin, J Lee, JW Yoo,
+        "Emergence of Multispinterface and Antiferromagnetic Molecular Exchange
+        Bias via Molecular Stacking on a Ferromagnetic Film", Advanced
+        Functional Materials 30 (11), 1908499
+      </li>
     </ul>
   </div>
   <div class="card-header">
@@ -40,8 +71,16 @@ layout: default
   </div>
   <div class="card-body">
     <ul class="list-group list-group-flush">
-      <li class="list-group-item">SJ Kwon, BM Jung, T Kim, J Byun, J Lee, SB Lee, UH Choi, "Influence of Al2O3 Nanowires on Ion Transport in Nanocomposite Solid Polymer Electrolytes", Macromolecules 51 (24), 10194-10201</li>
-      <li class="list-group-item">J Jo, J Byun, I Oh, J Park, MJ Jin, BC Min, J Lee, JW Yoo, "Molecular tunability of magnetic exchange bias and asymmetrical magnetotransport in metalloporphyrin/Co hybrid bilayers", ACS nano 13 (1), 894-903</li>
+      <li class="list-group-item">
+        SJ Kwon, BM Jung, T Kim, J Byun, J Lee, SB Lee, UH Choi, "Influence of
+        Al2O3 Nanowires on Ion Transport in Nanocomposite Solid Polymer
+        Electrolytes", Macromolecules 51 (24), 10194-10201
+      </li>
+      <li class="list-group-item">
+        J Jo, J Byun, I Oh, J Park, MJ Jin, BC Min, J Lee, JW Yoo, "Molecular
+        tunability of magnetic exchange bias and asymmetrical magnetotransport
+        in metalloporphyrin/Co hybrid bilayers", ACS nano 13 (1), 894-903
+      </li>
     </ul>
   </div>
   <div class="card-header">
@@ -49,11 +88,11 @@ layout: default
   </div>
   <div class="card-body">
     <ul class="list-group list-group-flush">
-    {% for publication in site.data.settings.publications %}
-      <li class="list-group-item">{{publication.author}}, {{publication.title}}, {{publication.journal}}</li>
+      {% for publication in site.data.settings.publications %}
+      <li class="list-group-item">
+        {{publication.author}}, {{publication.title}}, {{publication.journal}}
+      </li>
     </ul>
   </div>
 </div>
-<div class="container">
-
-</div>
+<div class="container"></div>
